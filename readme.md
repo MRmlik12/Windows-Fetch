@@ -4,10 +4,10 @@ works fine in windows xp, vista, 7, 8, 8.1 and 10.
 
 ## Screenshots
 
-Windows Xp__
+Windows Xp  
 ![winxp](img/winxp.bmp)
 
-Windows 10__
+Windows 10  
 ![winten](img/windows10.png)
 
 ## Requirements
