@@ -32,7 +32,7 @@ namespace Windows_fetch
             Console.WriteLine($"                         ----------------------------");
             Console.WriteLine($" __      __.__           OS: {detect.OsInfo()}", Color.Blue);
             Console.WriteLine($@"/  \    /  \__| ____     Host: {hardware.PcModel()}", Color.Blue);
-            Console.WriteLine($@"\   \/\/   /  |/    \    Proceses: {diagnostic.Process()}",  Color.Blue);
+            Console.WriteLine($@"\   \/\/   /  |/    \    Processes: {diagnostic.Process()}",  Color.Blue);
             Console.WriteLine($@" \        /|  |   |  \   Resolution: {hardware.Resolution()}", Color.Blue);
             Console.WriteLine($@"  \__/\  / |__|___|  /   CLR Version: {diagnostic.CLRVersion()}", Color.Blue);
             Console.WriteLine($@"       \/          \/    UpTime: {diagnostic.UpTime()}", Color.Blue);
@@ -49,7 +49,7 @@ namespace Windows_fetch
             Console.WriteLine($"                                                    ----------------------------");
             Console.WriteLine($" __      __.__            .___                      OS: {detect.OsInfo()}", Color.Blue);
             Console.WriteLine($@"/  \    /  \__| ____    __| _/______  _  ________   Host: {hardware.PcModel()}", Color.Blue);
-            Console.WriteLine($@"\   \/\/   /  |/    \  / __ |/  _ \ \/ \/ /  ___/   Proceses: {diagnostic.Process()}",  Color.Blue);
+            Console.WriteLine($@"\   \/\/   /  |/    \  / __ |/  _ \ \/ \/ /  ___/   Processes: {diagnostic.Process()}",  Color.Blue);
             Console.WriteLine($@" \        /|  |   |  \/ /_/ (  <_> )     /\___ \    Resolution: {hardware.Resolution()}", Color.Blue);
             Console.WriteLine($@"  \__/\  / |__|___|  /\____ |\____/ \/\_//____  >   CLR Version: {diagnostic.CLRVersion()}", Color.Blue);
             Console.WriteLine($@"       \/          \/      \/                 \/    UpTime: {diagnostic.UpTime()}", Color.Blue);

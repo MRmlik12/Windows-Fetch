@@ -14,7 +14,7 @@ Windows 10
 * Windows xp & later
 
 ## Download
-* Latest Version https://mega.nz/#!SkwBEa5T!MswF9tHovZyaNiJqptH0k20h78qenXkEGazWJWC2GlA
+* Latest Version https://mega.nz/#!2xpzwKqD!Ee6N6FSnKvdZ59cFeHedM0ICpO4uXAAEqtgfHIQSREU
 * All versions https://mega.nz/#F!D1xRWCqZ!JRLJ59mUSGKGvf0XEMRLAA
 
 
