@@ -1,6 +1,5 @@
 # Windows-Fetch
-A neofetch conversion on .NET, which it has removed a little functions. Windows Fetch
-works fine in windows xp, vista, 7, 8, 8.1 and 10. 
+A neofetch conversion on .NET. Windows Fetch works fine in windows xp, vista, 7, 8, 8.1 and 10. 
 
 ## Screenshots
 
