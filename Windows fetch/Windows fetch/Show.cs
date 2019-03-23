@@ -20,7 +20,6 @@ namespace Windows_fetch
                 Environment.OSVersion.Version.Major;
             var versionMin =
                 Environment.OSVersion.Version.Minor;
-            Console.WriteLine(versionMin + "." + versionMaj);
             if (versionMaj >= 6 && versionMin >= 2)
                 Modern();
             else if (versionMaj <= 6 && versionMin >= 1)
