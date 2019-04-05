@@ -13,8 +13,11 @@ Windows 10
 * .NET >= 4.0
 * Windows xp & later
 
+## How to configure
+If you want configure windows fetch go here
+
 ## Download
-* Latest Version https://mega.nz/#!2xpzwKqD!Ee6N6FSnKvdZ59cFeHedM0ICpO4uXAAEqtgfHIQSREU
+* Latest Version https://mega.nz/#!TgJEBSRL!R7ksNdch9sYlXooxveL5IAPAY8WMtH64C4jjaoOjbK8
 * All versions https://mega.nz/#F!D1xRWCqZ!JRLJ59mUSGKGvf0XEMRLAA
 
 

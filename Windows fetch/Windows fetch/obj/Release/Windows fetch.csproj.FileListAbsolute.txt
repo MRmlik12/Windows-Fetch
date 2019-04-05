@@ -8,3 +8,5 @@ D:\Tech Tycoon\Windows fetch\Windows fetch\obj\Release\Windows fetch.pdb
 D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\Windows fetch.exe.config
 D:\Tech Tycoon\Windows fetch\Windows fetch\obj\Release\Windows fetch.csprojAssemblyReference.cache
 D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\Colorful.Console.dll
+D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\INIFileParser.dll
+D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\INIFileParser.xml
