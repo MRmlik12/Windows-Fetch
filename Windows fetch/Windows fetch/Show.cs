@@ -136,7 +136,7 @@ namespace Windows_fetch
             { 
                 if (remove[x] == 1)
                 {
-                    break;
+                    continue;
                 }
                 if (remove[x] == 0)
                 {
