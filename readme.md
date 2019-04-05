@@ -14,7 +14,7 @@ Windows 10
 * Windows xp & later
 
 ## How to configure
-If you want configure windows fetch go here
+If you want configure windows fetch go here https://github.com/MRmlik12/Windows-Fetch/wiki/How-to-configure-Windows-Fetch
 
 ## Download
 * Latest Version https://mega.nz/#!TgJEBSRL!R7ksNdch9sYlXooxveL5IAPAY8WMtH64C4jjaoOjbK8
