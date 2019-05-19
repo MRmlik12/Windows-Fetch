@@ -17,8 +17,8 @@ Windows 10
 If you want configure windows fetch go here https://github.com/MRmlik12/Windows-Fetch/wiki/How-to-configure-Windows-Fetch
 
 ## Download
-The Windows Fetch Builds has move to SourceForge on this link https://sourceforge.net/projects/windows-fetch/, but 
-the source code will be in github!
+The Windows Fetch builds has moved to SourceForge on this link https://sourceforge.net/projects/windows-fetch/, but 
+the source code will be on github!
 * Latest Version https://sourceforge.net/projects/windows-fetch/files/latest/download
 * All versions https://sourceforge.net/projects/windows-fetch/files/
 
