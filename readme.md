@@ -1,4 +1,4 @@
-[![Download Windows Fetch](https://img.shields.io/sourceforge/dt/windows-fetch.svg)](https://sourceforge.net/projects/windows-fetch/files/latest/download)
+[![Download Windows Fetch](https://sourceforge.net/sflogo.php?type=16&group_id=3107830)](https://sourceforge.net/p/windows-fetch/)[![Download Windows Fetch](https://img.shields.io/sourceforge/dt/windows-fetch.svg)](https://sourceforge.net/projects/windows-fetch/files/latest/download)
 # Windows-Fetch
 A neofetch conversion on .NET. Windows Fetch works fine in windows xp, vista, 7, 8, 8.1 and 10. 
 
