@@ -62,6 +62,7 @@ namespace Windows_fetch
         {
             try
             {
+                config.CheckConfigFile();
                 config.ReadConfig();
             }
             catch (FormatException)
@@ -148,24 +149,37 @@ namespace Windows_fetch
             {
                 if (config.picture == "small" && config.domain == false)
                 {
-                    Console.WriteLine($"                        {diagnostic.Domain()}");
-                    Console.WriteLine($"                        ----------------------------");
+                    Console.WriteLine($"                          {diagnostic.Domain()}");
+                    Console.WriteLine($"                          ----------------------------");
                 }
                 else if (config.picture == "big" && config.domain == false)
                 {
-                    Console.WriteLine($"                                                            {diagnostic.Domain()}");
-                    Console.WriteLine($"                                                            ----------------------------");
+                    Console.WriteLine($"                                                              {diagnostic.Domain()}");
+                    Console.WriteLine($"                                                              ----------------------------");
                 }
                 else if (config.domain == true)
                 {
 
                 }
-                Console.WriteLine($"{_picture[a++]}  {data[i++]}", Color.Blue);
-                Console.WriteLine($@"{_picture[a++]}  {data[i++]}", Color.Blue);
-                Console.WriteLine($@"{_picture[a++]}  {data[i++]}", Color.Blue);
-                Console.WriteLine($@"{_picture[a++]}  {data[i++]}", Color.Blue);
-                Console.WriteLine($@"{_picture[a++]}  {data[i++]}", Color.Blue);
-                Console.WriteLine($@"{_picture[a++]}  {data[i++]}", Color.Blue);
+                while (true)
+                {
+                    if (a < _picture.Count && i < data.Count)
+                    {
+                        Console.Write($"{_picture[a++]}  ");
+                        Console.WriteLine($"  {data[i++]}", Color.Blue);
+                    }
+                    else if (a < _picture.Count && i == data.Count)
+                    {
+                        Console.Write($"{_picture[a++]}  ");
+                        Console.WriteLine($"  ", Color.Blue);
+                    }
+                    else if (a == _picture.Count)
+                    {
+                        break;
+                    }
+                    
+                }
+                
                 if (config.picture == "small")
                 {
                     Console.WriteLine($"                        {data[i++]}");
@@ -185,7 +199,7 @@ namespace Windows_fetch
             }
             catch (ArgumentOutOfRangeException)
             {
-                
+                //If the i > data, end writing line
             }
         }
     }

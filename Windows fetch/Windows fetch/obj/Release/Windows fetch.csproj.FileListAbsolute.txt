@@ -10,3 +10,15 @@ D:\Tech Tycoon\Windows fetch\Windows fetch\obj\Release\Windows fetch.csprojAssem
 D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\Colorful.Console.dll
 D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\INIFileParser.dll
 D:\Tech Tycoon\Windows fetch\Windows fetch\bin\Release\INIFileParser.xml
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\Windows fetch.exe.config
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\Windows fetch.exe
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\Windows fetch.pdb
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\Colorful.Console.dll
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\INIFileParser.dll
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\System.Management.dll
+D:\Windows Fetch\Windows fetch\Windows fetch\bin\Release\INIFileParser.xml
+D:\Windows Fetch\Windows fetch\Windows fetch\obj\Release\Windows Fetch.csprojAssemblyReference.cache
+D:\Windows Fetch\Windows fetch\Windows fetch\obj\Release\Windows Fetch.csproj.CoreCompileInputs.cache
+D:\Windows Fetch\Windows fetch\Windows fetch\obj\Release\Windows Fetch.csproj.CopyComplete
+D:\Windows Fetch\Windows fetch\Windows fetch\obj\Release\Windows fetch.exe
+D:\Windows Fetch\Windows fetch\Windows fetch\obj\Release\Windows fetch.pdb

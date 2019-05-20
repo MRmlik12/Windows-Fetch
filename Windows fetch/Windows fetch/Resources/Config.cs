@@ -30,5 +30,43 @@ namespace Windows_fetch.Resources
             picture = ini["WindowsFetch"]["picture"];
             domain = Boolean.Parse(ini["WindowsFetch"]["remove_domain"]);
         }
+
+        public void CheckConfigFile()
+        {
+            bool file = File.Exists("config.ini");
+            if (file == false)
+                CreateConfigFile();
+        }
+
+        private void CreateConfigFile()
+        {
+            var lines = ConfigLines();
+            var _file = File.Create("config.ini");
+            _file.Close();
+            int counter = 0;
+            File.WriteAllLines("config.ini", lines);
+        }
+
+        private List<String> ConfigLines()
+        {
+            List<String> Lines = new List<String> { };
+            Lines.Add("[WindowsFetch]");
+            Lines.Add("default=true");
+            Lines.Add("picture=small");
+            Lines.Add("remove_domain=false");
+            Lines.Add("[WindowsFetch_Remove]");
+            Lines.Add("1=0");
+            Lines.Add("2=0");
+            Lines.Add("3=0");
+            Lines.Add("4=0");
+            Lines.Add("5=0");
+            Lines.Add("6=0");
+            Lines.Add("7=0");
+            Lines.Add("8=0");
+            Lines.Add("9=0");
+            Lines.Add("10=0");
+            Lines.Add("11=0");
+            return Lines;
+        }
     }
 }
