@@ -24,7 +24,7 @@ namespace Windows_fetch
             data.Add($"Host: {hardware.PcModel()}");
             data.Add($"Processes: {diagnostic.Process()}");
             data.Add($"Resolution: {hardware.Resolution()}");
-            data.Add($"CLR Version: {diagnostic.CLRVersion()}");
+            data.Add($".NET Version: {diagnostic.DotNetVersion()}");
             data.Add($"UpTime: {diagnostic.UpTime()}");
             data.Add($"RAM: {memory.Summary()}");
             data.Add($"Cpu: {hardware.Cpu()}");
@@ -99,7 +99,7 @@ namespace Windows_fetch
             Console.WriteLine($@"/  \    /  \__| ____     Host: {hardware.PcModel()}", Color.Blue);
             Console.WriteLine($@"\   \/\/   /  |/    \    Processes: {diagnostic.Process()}",  Color.Blue);
             Console.WriteLine($@" \        /|  |   |  \   Resolution: {hardware.Resolution()}", Color.Blue);
-            Console.WriteLine($@"  \__/\  / |__|___|  /   CLR Version: {diagnostic.CLRVersion()}", Color.Blue);
+            Console.WriteLine($@"  \__/\  / |__|___|  /   .NET Version: {diagnostic.DotNetVersion()}", Color.Blue);
             Console.WriteLine($@"       \/          \/    UpTime: {diagnostic.UpTime()}", Color.Blue);
             Console.WriteLine($"                         RAM: {memory.Summary()}");
             Console.WriteLine($"                         Cpu: {hardware.Cpu()}");
@@ -116,7 +116,7 @@ namespace Windows_fetch
             Console.WriteLine($@"/  \    /  \__| ____    __| _/______  _  ________   Host: {hardware.PcModel()}", Color.Blue);
             Console.WriteLine($@"\   \/\/   /  |/    \  / __ |/  _ \ \/ \/ /  ___/   Processes: {diagnostic.Process()}",  Color.Blue);
             Console.WriteLine($@" \        /|  |   |  \/ /_/ (  <_> )     /\___ \    Resolution: {hardware.Resolution()}", Color.Blue);
-            Console.WriteLine($@"  \__/\  / |__|___|  /\____ |\____/ \/\_//____  >   CLR Version: {diagnostic.CLRVersion()}", Color.Blue);
+            Console.WriteLine($@"  \__/\  / |__|___|  /\____ |\____/ \/\_//____  >   .NET Version: {diagnostic.DotNetVersion()}", Color.Blue);
             Console.WriteLine($@"       \/          \/      \/                 \/    UpTime: {diagnostic.UpTime()}", Color.Blue);
             Console.WriteLine($"                                                    RAM: {memory.Summary()}");
             Console.WriteLine($"                                                    Cpu: {hardware.Cpu()}");

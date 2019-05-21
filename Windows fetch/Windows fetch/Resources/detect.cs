@@ -145,6 +145,7 @@ namespace Windows_fetch.Resources
     {
         internal string Times;
         internal string DNET;
+        public string name;
 
         public string UpTime()
         {
@@ -176,6 +177,37 @@ namespace Windows_fetch.Resources
         public string CLRVersion()
         {     
             return "v" + Environment.Version.ToString();
+        }
+
+        public string DotNetVersion()
+        {
+            RegistryKey registry = 
+                Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full");
+            int _name = (int)registry.GetValue("Release");
+            string name = null;
+            if (_name >= 528040)
+                name = "4.8 or later";
+            else if (_name >= 461808)
+                name = "4.7.2";
+            else if (_name >= 461308)
+                name = "4.7.1";
+            else if (_name >= 460798)
+                name = "4.7";
+            else if (_name >= 394802)
+                name = "4.6.2";
+            else if (_name >= 394254)
+                name = "4.6.1";
+            else if (_name >= 393295)
+                name = "4.6";
+            else if (_name >= 379893)
+                name = "4.5.2";
+            else if (_name >= 378675)
+                name = "4.5.1";
+            else if (_name >= 378389)
+                name = "4.5";
+            else if (_name < 378389)
+                name = "4.0";
+            return name;
         }
 
         public int Process()
