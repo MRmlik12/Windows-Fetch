@@ -2,6 +2,11 @@
 # Windows-Fetch
 A neofetch conversion on .NET. Windows Fetch works fine in windows xp, vista, 7, 8, 8.1 and 10. 
 
+| Platform Target | Status |
+| --------------- | ------
+| AnyCpu | [![Build status](https://ci.appveyor.com/api/projects/status/c3q4f5f3y9bexdnw?svg=true)](https://ci.appveyor.com/project/MRmlik12/windows-fetch)|
+
+
 ## Screenshots
 
 Windows Xp  
