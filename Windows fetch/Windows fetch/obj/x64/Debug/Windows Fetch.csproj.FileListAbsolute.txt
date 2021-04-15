@@ -1,9 +1,0 @@
-D:\Tech Tycoon\Windows fetch\Windows fetch\bin\x64\Debug\Windows fetch.exe.config
-D:\Tech Tycoon\Windows fetch\Windows fetch\bin\x64\Debug\Windows fetch.exe
-D:\Tech Tycoon\Windows fetch\Windows fetch\bin\x64\Debug\Windows fetch.pdb
-D:\Tech Tycoon\Windows fetch\Windows fetch\bin\x64\Debug\Colorful.Console.dll
-D:\Tech Tycoon\Windows fetch\Windows fetch\bin\x64\Debug\System.Management.dll
-D:\Tech Tycoon\Windows fetch\Windows fetch\obj\x64\Debug\Windows Fetch.csproj.CoreCompileInputs.cache
-D:\Tech Tycoon\Windows fetch\Windows fetch\obj\x64\Debug\Windows Fetch.csproj.CopyComplete
-D:\Tech Tycoon\Windows fetch\Windows fetch\obj\x64\Debug\Windows fetch.exe
-D:\Tech Tycoon\Windows fetch\Windows fetch\obj\x64\Debug\Windows fetch.pdb
